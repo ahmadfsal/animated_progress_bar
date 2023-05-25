@@ -26,6 +26,12 @@ CurveStepProgressBar(
 | animationDuration | `Duration` | How long animate between steps when the current step is changed | `const Duration(milliseconds: 500)`    |
 | curve             | `Curve`    | Selected curve to show the animation                            | `Curves.elasticOut`                    |
 
+## Running
+
+1. Clone this project `git clone https://github.com/ahmadfsal/animated_progress_bar.git`
+2. Run `flutter pub get`
+3. Run `flutter run`
+
 ## Testing
 
 This widget using Golden tests to generate a screenshot of the widget and compares it against a reference image. If both the images match, the test will pass.
